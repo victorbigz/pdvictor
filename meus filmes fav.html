@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery div {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        .gallery a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Galeria de Filmes Favoritos</h1>
+    <div class="gallery">
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/O_Poderoso_Chef%C3%A3o" target="_blank">
+                <img src="poderoso_chefao.jpg" alt="O Poderoso Chefão">
+                O Poderoso Chefão
+            </a>
+        </div>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Interestelar_(filme)" target="_blank">
+                <img src="interestelar.jpg" alt="Interestelar">
+                Interestelar
+            </a>
+        </div>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Matrix_(filme)" target="_blank">
+                <img src="matrix.jpg" alt="Matrix">
+                Matrix
+            </a>
+        </div>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/O_Cavaleiro_das_Trevas" target="_blank">
+                <img src="cavaleiro_trevas.jpg" alt="O Cavaleiro das Trevas">
+                O Cavaleiro das Trevas
+            </a>
+        </div>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Clube_da_Luta" target="_blank">
+                <img src="clube_da_luta.jpg" alt="Clube da Luta">
+                Clube da Luta
+            </a>
+        </div>
+        <div>
+            <a href="https://pt.wikipedia.org/wiki/Pulp_Fiction" target="_blank">
+                <img src="pulp_fiction.jpg" alt="Pulp Fiction">
+                Pulp Fiction
+            </a>
+        </div>
+    </div>
+</body>
+</html>
