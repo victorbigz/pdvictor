@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa PD</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: auto; }
+        label { display: block; margin-top: 10px; }
+        .question { margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <h2>Pesquisa de Satisfação</h2>
+    <form id="surveyForm">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label>E-mail:</label>
+        <input type="email" name="email" required>
+
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" required>
+
+        <div class="question">
+            <label>Como você avalia nosso atendimento?</label>
+            <input type="radio" name="atendimento" value="Ótimo" required> Ótimo
+            <input type="radio" name="atendimento" value="Bom"> Bom
+            <input type="radio" name="atendimento" value="Regular"> Regular
+            <input type="radio" name="atendimento" value="Ruim"> Ruim
+        </div>
+
+        <div class="question">
+            <label>Você recomendaria nosso serviço?</label>
+            <input type="radio" name="recomendacao" value="Sim" required> Sim
+            <input type="radio" name="recomendacao" value="Não"> Não
+        </div>
+
+        <div class="question">
+            <label>Qual foi o principal motivo da sua visita?</label>
+            <select name="motivo" required>
+                <option value="Compra">Compra</option>
+                <option value="Suporte">Suporte</option>
+                <option value="Dúvidas">Dúvidas</option>
+                <option value="Outros">Outros</option>
+            </select>
+        </div>
+
+        <label>
+            <input type="checkbox" name="autorizacao" required>
+            Autorizo compartilhar minha resposta com terceiros.
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        document.getElementById("surveyForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Pesquisa enviada com sucesso! Obrigado por participar.");
+            this.reset();
+        });
+    </script>
+</body>
+</html>
