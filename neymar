@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de Neymar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .section {
+            text-align: left;
+            margin-top: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biografia de Neymar</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Neymar_in_2018.jpg" alt="Neymar">
+        <p><strong>Nome Completo:</strong> Neymar da Silva Santos Júnior</p>
+        <p><strong>Data de Nascimento:</strong> 5 de fevereiro de 1992</p>
+        <p><strong>Local de Nascimento:</strong> Mogi das Cruzes, São Paulo, Brasil</p>
+        
+        <div class="section">
+            <h2>Início da Carreira</h2>
+            <p>Neymar começou sua carreira no Santos Futebol Clube, onde se destacou rapidamente com dribles impressionantes e gols decisivos. Seu talento chamou a atenção do mundo, e ele foi eleito o melhor jogador jovem da América do Sul.</p>
+        </div>
+
+        <div class="section">
+            <h2>Carreira Internacional</h2>
+            <p>Em 2013, Neymar transferiu-se para o Barcelona, formando um trio histórico com Messi e Suárez. No clube catalão, conquistou títulos importantes, incluindo a Liga dos Campeões da UEFA e o Mundial de Clubes.</p>
+            <p>Em 2017, tornou-se a transferência mais cara da história ao assinar com o Paris Saint-Germain por 222 milhões de euros. No PSG, Neymar ajudou a equipe a conquistar múltiplos títulos nacionais e chegar à final da Liga dos Campeões.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Seleção Brasileira</h2>
+            <p>Neymar é uma peça fundamental da seleção brasileira. Ele liderou o Brasil na conquista da medalha de ouro olímpica nos Jogos do Rio 2016 e tem sido um dos maiores artilheiros da história da equipe nacional.</p>
+        </div>
+    </div>
+</body>
+</html>
