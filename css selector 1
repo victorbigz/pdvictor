@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<HTMl>
+    <HEAD>
+        <TITLE>Exercicios seletores css</TITLE>
+        <link href="selector.css" rel="stylesheet" type="text/css">
+    </HEAD>
+    <body>
+        
+
+<a href="https://www.youtube.com">clique em mim</a>
+
+    </body>
+</HTMl>
